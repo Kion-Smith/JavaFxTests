@@ -1,5 +1,6 @@
 package main;
 
+import java.awt.image.PixelGrabber;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -9,8 +10,12 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.image.PixelReader;
+import javafx.scene.image.PixelWriter;
+import javafx.scene.image.WritableImage;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
@@ -61,7 +66,9 @@ public class MenuMain extends Application
 			}
 		});
 		
+
 		
+		primaryStage.setTitle("Menu test");;
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
