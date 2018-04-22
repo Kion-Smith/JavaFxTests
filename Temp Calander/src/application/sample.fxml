@@ -3,22 +3,23 @@
 <?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <VBox prefHeight="768.0" prefWidth="1280.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Controller">
   <AnchorPane prefHeight="323.0" prefWidth="688.0">
     <children>
-      <TableView layoutX="40.0" layoutY="58.0" prefHeight="669.0" prefWidth="597.0">
+      <TableView layoutX="29.0" layoutY="99.0" prefHeight="640.0" prefWidth="596.0">
         <columns>
-          <TableColumn prefWidth="85.0" text="Sunday" />
-          <TableColumn prefWidth="85.0" text="Monday" />
-          <TableColumn prefWidth="85.0" text="Tuesday" />
-          <TableColumn prefWidth="85.0" text="Wednesday" />
-          <TableColumn prefWidth="85.0" text="Thursday " />
-          <TableColumn prefWidth="85.0" text="Friday" />
-          <TableColumn prefWidth="85.0" text="Saturday" />
+          <TableColumn editable="false" prefWidth="85.0" resizable="false" sortable="false" text="Sunday" />
+          <TableColumn editable="false" prefWidth="85.0" resizable="false" sortable="false" text="Monday" />
+          <TableColumn editable="false" prefWidth="85.0" sortable="false" text="Tuesday" />
+          <TableColumn editable="false" prefWidth="85.0" resizable="false" sortable="false" text="Wednesday" visible="true" />
+          <TableColumn editable="false" prefWidth="85.0" resizable="false" sortable="false" text="Thursday " visible="true" />
+          <TableColumn editable="false" prefWidth="85.0" resizable="false" sortable="false" text="Friday" />
+          <TableColumn editable="false" prefWidth="85.0" resizable="false" sortable="false" text="Saturday" />
         </columns>
       </TableView>
-      <TextArea layoutX="651.0" layoutY="58.0" prefHeight="607.0" prefWidth="597.0" wrapText="true" />
+      <TextArea layoutX="651.0" layoutY="99.0" prefHeight="560.0" prefWidth="600.0" wrapText="true" />
       <MenuBar layoutX="0.0" layoutY="0.0" prefWidth="1280.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
@@ -38,8 +39,16 @@
           </Menu>
         </menus>
       </MenuBar>
-      <TextField layoutX="651.0" layoutY="675.0" prefHeight="52.0" prefWidth="480.0" />
-      <Button layoutX="1138.0" layoutY="675.0" mnemonicParsing="false" prefHeight="52" prefWidth="110.0" text="Button" />
+      <TextField layoutX="651.0" layoutY="674.0" prefHeight="65.0" prefWidth="480.0" />
+      <Button layoutX="1138.0" layoutY="675.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="110.0" text="Button" />
+      <Button layoutX="485.0" layoutY="45.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="140.0" text="Button" />
+      <Label layoutX="270.0" layoutY="50.0" prefHeight="32.0" prefWidth="140.0" text="Month" textAlignment="CENTER">
+        <font>
+          <Font size="24.0" fx:id="x1" />
+        </font>
+      </Label>
+      <Button layoutX="29.0" layoutY="45.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="140.0" text="Button" />
+      <Label font="$x1" layoutX="866.0" layoutY="53.0" prefWidth="167.0" text="Notes" textAlignment="CENTER" />
     </children>
   </AnchorPane>
 </VBox>
