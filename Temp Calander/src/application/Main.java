@@ -28,7 +28,7 @@ public class Main extends Application
 		try 
 		{
 			Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-			primaryStage.setTitle("Calander in fxml");
+			primaryStage.setTitle("Calander");
 			primaryStage.setScene(new Scene(root,1280,768));
 			primaryStage.show();
 		} 
