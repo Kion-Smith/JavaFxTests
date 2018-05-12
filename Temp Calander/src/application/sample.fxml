@@ -40,13 +40,13 @@
       </MenuBar>
       <TextField layoutX="833.0" layoutY="666.0" prefHeight="89.0" prefWidth="308.0" />
       <Button layoutX="1150.0" layoutY="665.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="117.0" text="Add" />
-      <Button layoutX="681.0" layoutY="45.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="140.0" text="→" textAlignment="RIGHT">
+      <Button layoutX="681.0" layoutY="37.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="140.0" text="→" textAlignment="RIGHT">
         <font>
           <Font size="24.0" fx:id="x1" />
         </font>
       </Button>
       <Label alignment="CENTER" font="$x1" layoutX="348.0" layoutY="47.0" prefHeight="32.0" prefWidth="140.0" text="Month" textAlignment="CENTER" />
-      <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" font="$x1" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="140.0" text="←" textAlignment="RIGHT" />
+      <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" font="$x1" layoutX="14.0" layoutY="39.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="140.0" text="←" textAlignment="RIGHT" />
       <Label alignment="CENTER" font="$x1" layoutX="967.0" layoutY="49.0" prefWidth="167.0" text="Notes" textAlignment="RIGHT" />
       <ListView layoutX="833.0" layoutY="99.0" prefHeight="555.9999000000025" prefWidth="434.0" />
       <Button layoutX="1151.0" layoutY="711.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="116.0" text="Remove" />

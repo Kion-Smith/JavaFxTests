@@ -2,8 +2,13 @@ package application;
 
 import java.util.ArrayList;
 
+import javafx.beans.property.SimpleStringProperty;
+
 public class Day 
 {
+	//@FXML add later
+	//private TableView<Day> dayTable;
+	
 	public int curDay;
 	public ArrayList<String> toDoList;//might change this later to another object
 	
